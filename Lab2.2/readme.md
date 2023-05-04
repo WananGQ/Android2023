@@ -2,10 +2,10 @@
 ## 1. 创建项目
 
 	创建项目Lab2.2，选择“Empty Activity”
-	![创建项目](1.png)
+	![创建项目](https://github.com/WananGQ/Android2023/blob/main/Lab2.2/image/1.png)
 ## 2.添加Gradle依赖
 	2.1向此文件中添加CameraX相关依赖
-	![](2.png)
+	![](https://github.com/WananGQ/Android2023/blob/main/Lab2.2/image/2.png)
 
 ```bash
 dependencies {
@@ -41,7 +41,7 @@ dependencies {
 最后点击左侧出现提示时（灯泡状），点击 Sync Now，便可以在应用中使用 CameraX 了。
 ## 3.布局设置
 3.1在res下的layout文件夹中的activity_main.xml（如图）中的代码替换为如下代码
-![]3
+![]（https://github.com/WananGQ/Android2023/blob/main/Lab2.2/image/3.png）
 
 ```bash
 <?xml version="1.0" encoding="utf-8"?>
@@ -93,7 +93,7 @@ dependencies {
 
 ```
 3.2在res下的values文件夹中的strings.xml（如图）中更新其中的代码如下
-！[]4
+![](https://github.com/WananGQ/Android2023/blob/main/Lab2.2/image/4.png)
 
 ```bash
 <resources>
@@ -105,10 +105,10 @@ dependencies {
 
 ```
 3.3更改后界面如图
-！[]5
+![](https://github.com/WananGQ/Android2023/blob/main/Lab2.2/image/5.png)
 ## 4.更改MainActivity.kt代码
 4.1将 MainActivity.kt (如图)中的代码替换为以下代码，但保留软件包名称不变。它包含 import 语句、将要实例化的变量、要实现的函数以及常量。
-！[]7
+![](https://github.com/WananGQ/Android2023/blob/main/Lab2.2/image/7.png)
 系统已实现 onCreate()，供我们检查相机权限、启动相机、为照片和拍摄按钮设置 onClickListener()，以及实现 cameraExecutor。虽然系统已经实现 onCreate()，但在实现文件中的方法之前，相机将无法正常工作。
 
 ```bash
@@ -232,7 +232,7 @@ class MainActivity : AppCompatActivity() {
 应用需要获得用户授权才能打开相机；录制音频也需要麦克风权限；在 Android 9 § 及更低版本上，MediaStore 需要外部存储空间写入权限。在此步骤中，我们将实现这些必要的权限。
 
 打开 AndroidManifest.xml（如图），然后将以下代码行添加到 application 标记之前。
-![]8
+![](https://github.com/WananGQ/Android2023/blob/main/Lab2.2/image/8.png)
 
 ```bash
 <uses-feature android:name="android.hardware.camera.any" />
@@ -266,7 +266,7 @@ override fun onRequestPermissionsResult(
 用于判断是否基于应用权限
 3.3启动应用查看
 运行应用，可发现应用程序请求使用摄像头和麦克风：
-！[]6
+![](https://github.com/WananGQ/Android2023/blob/main/Lab2.2/image/6.png)
 ## 5.实现 Preview 用例
 在相机应用中，取景器用于让用户预览他们拍摄的照片。我们将使用 CameraX Preview 类实现取景器。
 
@@ -306,7 +306,7 @@ private fun startCamera() {
 }
 ```
 运行可以发现相机预览
-！[]9
+![](https://github.com/WananGQ/Android2023/blob/main/Lab2.2/image/9.png)
 ## 6.实现 ImageCapture 用例（拍照功能)
 实现MainActivity.kt中的takePhoto(){}
 
