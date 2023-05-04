@@ -1,10 +1,10 @@
 ﻿# 实验2
 ## 1. 创建项目
 
-	创建项目Lab2.2，选择“Empty Activity”
+创建项目Lab2.2，选择“Empty Activity”
 	![创建项目](https://github.com/WananGQ/Android2023/blob/main/Lab2.2/image/1.png)
 ## 2.添加Gradle依赖
-	2.1向此文件中添加CameraX相关依赖
+2.1向此文件中添加CameraX相关依赖
 	![](https://github.com/WananGQ/Android2023/blob/main/Lab2.2/image/2.png)
 
 ```bash
@@ -41,7 +41,8 @@ dependencies {
 最后点击左侧出现提示时（灯泡状），点击 Sync Now，便可以在应用中使用 CameraX 了。
 ## 3.布局设置
 3.1在res下的layout文件夹中的activity_main.xml（如图）中的代码替换为如下代码
-![]（https://github.com/WananGQ/Android2023/blob/main/Lab2.2/image/3.png）
+
+ ![](https://github.com/WananGQ/Android2023/blob/main/Lab2.2/image/3.png)
 
 ```bash
 <?xml version="1.0" encoding="utf-8"?>
