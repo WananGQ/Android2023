@@ -5,9 +5,12 @@
 git clone https://github.com/hoitab/TFLClassify.git
 ```
 ## 运行代码
-![手机运行]()
+![手机运行](https://github.com/WananGQ/Android2023/blob/main/Lab4/image/QQ%E6%88%AA%E5%9B%BE20230620191912.png)
+![手机运行](https://github.com/WananGQ/Android2023/blob/main/Lab4/image/Screenshot_20230620_192143.jpg)
+
 ## 向应用中添加TensorFlow Lite
-![添加lite]()
+![添加lite](https://github.com/WananGQ/Android2023/blob/main/Lab4/image/QQ%E6%88%AA%E5%9B%BE20230620192404.png)
+![lite](https://github.com/WananGQ/Android2023/blob/main/Lab4/image/QQ%E6%88%AA%E5%9B%BE20230620192500.png)
 ## 检查代码中的TODO项
 TODO1
 
@@ -95,4 +98,4 @@ for (i in 0..MAX_RESULT_DISPLAY-1){
 
 ```
 ## 最后运行
-![运行]()
+![运行](https://github.com/WananGQ/Android2023/blob/main/Lab4/image/Screenshot_20230620_193424.jpg)
