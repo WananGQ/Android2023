@@ -73,7 +73,12 @@ for i, img_path in enumerate(next_rock+next_paper+next_scissors):
 
 ```
 图片：
-![在这里插入图片描述]()
+![在这里插入图片描述](https://github.com/WananGQ/Android2023/blob/main/Lab5.2/image/1.png)
+![在这里插入图片描述](https://github.com/WananGQ/Android2023/blob/main/Lab5.2/image/2.png)
+![在这里插入图片描述](https://github.com/WananGQ/Android2023/blob/main/Lab5.2/image/3.png)
+![在这里插入图片描述](https://github.com/WananGQ/Android2023/blob/main/Lab5.2/image/4.png)
+![在这里插入图片描述](https://github.com/WananGQ/Android2023/blob/main/Lab5.2/image/5.png)
+![在这里插入图片描述](https://github.com/WananGQ/Android2023/blob/main/Lab5.2/image/6.png)
 调用TensorFlow的keras进行数据模型的训练和评估。Keras是开源人工神经网络库，TensorFlow集成了keras的调用接口，可以方便的使用。
 
 ```bash
@@ -254,4 +259,4 @@ plt.figure()
 plt.show()
 
 ```
-![]()
+![在这里插入图片描述](https://github.com/WananGQ/Android2023/blob/main/Lab5.2/image/7.png)
