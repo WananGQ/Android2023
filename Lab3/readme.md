@@ -1,26 +1,26 @@
 ﻿# Jupyter Notebook基础教程
 ## 安装完成之后，启动Anaconda的Navigator，并启动Notebook，呈现如下界面：
-![运行]()
+![运行](https://github.com/WananGQ/Android2023/blob/main/Lab3/image/1.png)
 ## 新建一个新的Notebook
-![新建]()
+![新建](https://github.com/WananGQ/Android2023/blob/main/Lab3/image/2.png)
 #### 试着输入一行代码，查看执行效果：
-![3]()
+![3](https://github.com/WananGQ/Android2023/blob/main/Lab3/image/3.png)
 #### 代码执行之后，cell左侧的标签从In [ ] 变成了 In [1]。In代表输入，[]中的数字代表kernel执行的顺序，而In [*]则表示代码cell正在执行代码。以下例子显示了短暂的In [*]过程。
-![4]()
+![4](https://github.com/WananGQ/Android2023/blob/main/Lab3/image/4.png)
 ## 数据分析的例子
 #### 导入相关的工具库、检查相关数据集
-![5]()
+![5](https://github.com/WananGQ/Android2023/blob/main/Lab3/image/5.png)
 
 ```bash
 df.tail()
 ```
-![6]()
+![6](https://github.com/WananGQ/Android2023/blob/main/Lab3/image/6.png)
 对数据属性列进行重命名，以便在后续访问
-![7]()
+![7](https://github.com/WananGQ/Android2023/blob/main/Lab3/image/7.png)
 接下来，检查数据条目是否加载完整。
-![8]()
+![8](https://github.com/WananGQ/Android2023/blob/main/Lab3/image/8.png)
 其他属性列都正常，但是对于profit属性，期望的结果是float类型，因此其可能包含非数字的值，利用正则表达式进行检查。
-![9]()
+![9](https://github.com/WananGQ/Android2023/blob/main/Lab3/image/9.png)
 ## 使用matplotlib进行绘图
 #### 接下来，以年分组绘制平均利润和收入。首先定义变量和方法。
 
@@ -42,7 +42,7 @@ fig, ax = plt.subplots()
 plot(x, y1, ax, 'Increase in mean Fortune 500 company profits from 1955 to 2005', 'Profit (millions)')
 
 ```
-![10]()
+![10](https://github.com/WananGQ/Android2023/blob/main/Lab3/image/10.png)
 #### 看起来像指数增长，但是1990年代初期出现急剧的下滑，对应当时经济衰退和网络泡沫。再来看看收入曲线。
 
 ```bash
@@ -50,7 +50,7 @@ y2 = avgs.revenue
 fig, ax = plt.subplots()
 plot(x, y2, ax, 'Increase in mean Fortune 500 company revenues from 1955 to 2005', 'Revenue (millions)')
 ```
-![11]()
+![11](https://github.com/WananGQ/Android2023/blob/main/Lab3/image/11.png)
 #### 公司收入曲线并没有出现急剧下降，可能是由于财务会计的处理。对数据结果进行标准差处理。
 
 ```bash
